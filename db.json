@@ -1,19 +1,5 @@
 {
   "posts": [
-    {
-      "id": 1,
-      "title": "Тестовый пост",
-      "body": "12345"
-    },
-    {
-      "id": 2,
-      "title": "Admin: can't ",
-      "body": "hyhhh"
-    },
-    {
-      "id": 3,
-      "title": "asdsdf",
-      "body": "sdfsdf"
-    }
+
   ]
 }
