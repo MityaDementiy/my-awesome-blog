@@ -66,11 +66,6 @@ const CreatePost = ({ posts }) => {
                 {formik.errors.title}
               </div>
             )}
-            {formik.status && (
-              <div className="alert alert-danger mt-3" role="alert">
-                {formik.status}
-              </div>
-            )}
           </div>
           <div className="form-group form-row">
             <textarea
