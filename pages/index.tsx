@@ -36,7 +36,7 @@ const App = ({ posts }: PostsProps) => {
           </Row>
         </Nav>
         <h1 className="mb-3">My blog</h1>
-        <p>Huston, we have no posts yet!</p>
+        <p>Houston, we have no posts yet!</p>
         <Link href={'/posts/new'}>Let's create first one</Link>
       </div>
     );
