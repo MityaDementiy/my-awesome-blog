@@ -5,10 +5,11 @@ import axios from 'axios';
 import { useFormik } from 'formik';
 import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { validatePost } from '../../validator';
 
-const CreatePost = ({ posts }) => {
-  const getNextId = () => Number(_.uniqueId());
+const CreatePost = () => {
+  const getNextId = () => Number(_.random(1, 1000000000));
   const postsUrl = 'http://localhost:5000/posts';
   const formik = useFormik({
     initialValues: {
